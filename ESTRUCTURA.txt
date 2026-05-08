@@ -1,0 +1,31 @@
+ESTRUCTURA DE CARPETAS
+======================
+
+Descarga estos archivos y organízalos así:
+
+hc-app/
+├── package.json
+├── vite.config.js
+├── index.html
+├── README.md
+├── DEPLOY.md
+├── ESTRUCTURA.txt
+├── .gitignore
+└── src/
+    ├── App.jsx
+    └── main.jsx
+
+TOTAL: 5 archivos JavaScript + 1 HTML + configuración
+
+Para subir a GitHub:
+1. Crea carpeta `hc-app`
+2. Mete todos estos archivos dentro
+3. Sube a GitHub
+
+Vercel automáticamente:
+1. Instala dependencias (npm install)
+2. Compila el proyecto (npm run build)
+3. Sube a internet
+
+¡Sin que hagas nada más!
+
